@@ -50,7 +50,8 @@ public class Main {
             fullName[lengthArray] = i;
             lengthArray--;
         }
-        for (char j : fullName) {
+        reverseFullName = fullName;
+        for (char j : reverseFullName) {
             System.out.print(j);
         }
     }
